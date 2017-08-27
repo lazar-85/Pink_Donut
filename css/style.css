@@ -1,0 +1,75 @@
+*{
+	outline: none;
+}
+
+.wrapper{
+	background-color: #ffd500;
+}
+
+header{
+	margin: 0 auto;
+	max-width: 1280px;
+	/*background-image: url('../img/bg.png');
+	background-repeat: repeat-y;*/
+	background-color: #ffd500;
+}
+
+nav{
+	padding-top: 75px;
+	padding-left: 110px;
+	letter-spacing: 0.5px;
+}
+
+nav li{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'BIG JOHN';
+
+}
+
+nav a{
+	text-decoration: none;
+	color:black;
+	padding: 17px 30px;
+	border-radius: 20px;
+
+}
+nav a:hover{
+	color:#ffd500;
+	background-color: #000;
+}
+
+.main-slider{
+	padding-top: 100px;
+	
+}
+
+
+.slick-dots li {
+	position: relative;
+	left:  100%;
+	bottom: 180px;
+	display: block;
+}
+.slick-dots li button {
+  border: 3px solid #fff;
+  height:1px;
+  width:1px;
+  border-radius:50%;
+  opacity: 0.5;
+}
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+.slick-dots li button::before {
+    content: " ";
+   }
+
+
+
+
+
+
+
