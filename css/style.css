@@ -2,15 +2,25 @@
 	outline: none;
 }
 
+h1, h2, h3, h4{
+	font-weight: bold;
+	font-family: 'BIG JOHN';
+
+}
+
+p{
+	font-family: 'OpenSans-Light';
+	font-size: 17px;
+	line-height: 25px;
+}
+
 .wrapper{
-	background-color: #ffd500;
+	-background-color: #ffd500;
 }
 
 header{
 	margin: 0 auto;
 	max-width: 1280px;
-	/*background-image: url('../img/bg.png');
-	background-repeat: repeat-y;*/
 	background-color: #ffd500;
 }
 
@@ -52,7 +62,9 @@ nav a:hover{
 	left:  100%;
 	bottom: 180px;
 	display: block;
+	margin: 0 -25px;
 }
+
 .slick-dots li button {
   border: 3px solid #fff;
   height:1px;
@@ -66,6 +78,101 @@ nav a:hover{
 .slick-dots li button::before {
     content: " ";
    }
+.slid-text{
+	position: absolute;
+	top: 0;
+	font-size: 40px;
+	font-family: 'BIG JOHN';
+	text-align: center;
+	padding-left: 350px;
+	line-height: 60px;
+	letter-spacing: 1.5px;
+
+}
+
+.slid-button::before {
+	content:url(../img/shape.png);
+	position: relative;
+	left: -86px;
+	top: -47px;
+
+}
+
+.slid-button {
+	padding-left: 525px;
+	-z-index: 2;
+}
+
+.slid-button a {
+	text-decoration: none;
+	background-color: #fad663;
+	border-radius: 15px;
+	padding: 13px 25px;
+	position: relative;
+	bottom: 0;
+	text-transform: uppercase;
+	color: black;
+	font-family: 'BIG JOHN';
+	border: 2px solid black;
+	margin-bottom: 25px;
+	-z-index: 999;
+	opacity: 0.99;
+	top: -43px;
+	left:-322px;
+}
+.line{
+	background-color: #ffd500;
+	padding-bottom: 40px;
+	
+}
+.line-position {
+	background-color: #ffd500;
+	position: relative;
+	width: 24px;
+	margin: -39px 597px;
+	height: 230px;
+}
+
+.line-position:before {
+	content: '';
+    border: 4px solid black;
+    width: 10px;
+    height: 41px;
+    border-radius: 36px;
+    position: absolute;
+    padding: 5px;
+    left: -12px;
+    top: 143px;
+}
+
+.works{
+	background-color: #fff;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+ .what-i-do-title {
+	float: left;
+    margin: 50px 200px 50px 120px;
+    font-size: 60px;
+}
+.what-i-do-pr {
+	margin: -110px -95px 50px 529px;
+    width: 618px;
+
+}
+.line-position-2 {
+	position: relative;
+    width: 24px;
+    height: 230px;
+    left: 597px;
+    top: -257px;
+}
+.shape-bottom{
+	position: relative;
+	left:-85px;
+}
+
+
 
 
 
