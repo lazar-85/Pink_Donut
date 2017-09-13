@@ -78,6 +78,7 @@ nav a:hover{
 .slick-dots li button::before {
     content: " ";
    }
+
 .slid-text{
 	position: absolute;
 	top: 0;
@@ -120,6 +121,7 @@ nav a:hover{
 	top: -43px;
 	left:-322px;
 }
+
 .line{
 	background-color: #ffd500;
 	padding-bottom: 40px;
@@ -133,7 +135,7 @@ nav a:hover{
 	height: 230px;
 }
 
-.line-position:before {
+.line-position:before,.line-position-3:before, .line-position-4:before {
 	content: '';
     border: 4px solid black;
     width: 10px;
@@ -141,20 +143,22 @@ nav a:hover{
     border-radius: 36px;
     position: absolute;
     padding: 5px;
-    left: -12px;
+    left: -11px;
     top: 143px;
 }
 
 .works{
-	background-color: #fff;
+	background-color: #fef9fd;
 	max-width: 1280px;
 	margin: 0 auto;
 }
+
  .what-i-do-title {
 	float: left;
     margin: 50px 200px 50px 120px;
     font-size: 60px;
 }
+
 .what-i-do-pr {
 	margin: -110px -95px 50px 529px;
     width: 618px;
@@ -172,9 +176,115 @@ nav a:hover{
 	left:-85px;
 }
 
+.portpholio,.skill {
+	width: 1280px;
+	display: flex;
+	margin: 0 auto;
+	justify-content:space-around;
 
+}
 
+.portpholio-item, .skill-item {
+	text-align: center;
+	margin-top: 120px;
+}
 
+.portpholio-item h3{
+	margin-bottom: 25px;
+	
+}
+
+.portpholio-img, .skill-img {
+	margin-bottom: 40px;	
+}
+
+.my-works{
+	background-color: #fef9fd;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.my-works-title {
+	float: right;
+    margin: 240px 0 50px 0;
+    font-size: 60px;
+}
+
+.line-position-3 {
+	position: relative;
+    width: 24px;
+    height: 230px;
+    left: 597px;
+    top: 125px;
+}
+
+.my-works-picture img{
+	text-align: center;
+	max-width: 1280px;
+}
+
+.button-works {
+	margin: 50px 39% 0;
+
+}
+
+.button-works a{
+	text-decoration: none;
+	margin: 0 auto;
+	border-radius: 15px;
+	padding: 13px 25px;
+	text-transform: uppercase;
+	color: black;
+	font-family: 'BIG JOHN';
+	border: 2px solid black;
+	margin-bottom: 25px;
+	z-index: 999;
+	opacity: 0.99;
+	background-color: #fff;
+	
+}
+
+.what-i-do {
+	padding-top: 80px;
+}
+
+.button-works::before {
+	content:url(../img/shape.png);
+	position: relative;
+	left: -86px;
+	top: 19px;
+
+}
+
+.line-position-4 {
+	position: relative;
+    width: 24px;
+    height: 230px;
+    left: 597px;
+    top: -257px;
+}
+
+ .line-position-4:before {
+	content: '';
+    border: 4px solid black;
+    width: 10px;
+    height: 41px;
+    border-radius: 36px;
+    position: absolute;
+    padding: 5px;
+    left: -11px;
+    top: 405px;
+}
+
+.skill-item h3 {
+	margin-bottom: 8px;
+	font-size: 48px;	
+}
+
+.skill-item h4 {
+	margin-bottom: 8px;
+	font-size: 18px;	
+}
 
 
 
