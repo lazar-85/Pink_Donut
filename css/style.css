@@ -5,6 +5,7 @@
 h1, h2, h3, h4{
 	font-weight: bold;
 	font-family: 'BIG JOHN';
+	text-transform: uppercase;
 
 }
 
@@ -79,15 +80,16 @@ nav a:hover{
     content: " ";
    }
 
-.slid-text{
+.slid-text h2{
 	position: absolute;
 	top: 0;
 	font-size: 40px;
 	font-family: 'BIG JOHN';
 	text-align: center;
-	padding-left: 350px;
+	padding-left: 376px;
 	line-height: 60px;
 	letter-spacing: 1.5px;
+	text-transform: uppercase;
 
 }
 
@@ -224,7 +226,7 @@ nav a:hover{
 }
 
 .button-works {
-	margin: 50px 39% 0;
+	margin: 50px 41% 0;
 
 }
 
@@ -273,7 +275,7 @@ nav a:hover{
     position: absolute;
     padding: 5px;
     left: -11px;
-    top: 405px;
+    top: 400px;
 }
 
 .skill-item h3 {
